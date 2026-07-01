@@ -62,9 +62,18 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 1rem;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --background: oklch(0.16 0.012 60);
+  --foreground: oklch(0.96 0.006 60);
+  --brand-amber: oklch(0.78 0.13 62);
+  --gradient-veil: linear-gradient(
+    to bottom,
+    oklch(0.14 0.01 60 / 0.55),
+    oklch(0.12 0.01 60 / 0.82)
+  );
+  --shadow-card: 0 30px 80px -20px oklch(0 0 0 / 0.6);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
