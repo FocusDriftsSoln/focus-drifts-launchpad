@@ -75,9 +75,17 @@
   --radius: 1rem;
   --font-serif: "Instrument Serif", Georgia, serif;
   --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
   --background: oklch(0.16 0.012 60);
   --foreground: oklch(0.96 0.006 60);
   --brand-amber: oklch(0.78 0.13 62);
+  /* Paper & Ink palette for the portfolio template */
+  --paper: oklch(0.965 0.006 85);
+  --paper-2: oklch(0.918 0.008 82);
+  --ink: oklch(0.16 0 0);
+  --ink-soft: oklch(0.32 0 0);
+  --ink-muted: oklch(0.52 0 0);
   --gradient-veil: linear-gradient(
     to bottom,
     oklch(0.14 0.01 60 / 0.55),
