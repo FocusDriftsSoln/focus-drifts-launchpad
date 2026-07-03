@@ -2,7 +2,8 @@ import { useEffect } from "react";
 
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
-import MasonryGallery from "./components/MasonryGallery";
+import Collections from "./components/Collections";
+import GalleryShowcase from "./components/MasonryGallery";
 import Services from "./components/Services";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -18,7 +19,8 @@ export default function PortfolioApp() {
       <Nav />
       <main>
         <Hero />
-        <MasonryGallery />
+        <Collections />
+        <GalleryShowcase />
         <Services />
         <About />
         <Contact />

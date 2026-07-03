@@ -39,3 +39,19 @@ export const gallery: GalleryItem[] = [
   { src: g02, title: "Quiet Ridge", category: "Landscape", width: 1100, height: 800 },
   { src: g03, title: "Forever", category: "Wedding", width: 800, height: 1000 },
 ];
+
+export type Collection = {
+  title: string;
+  subtitle: string;
+  cover: string;
+  count: number;
+};
+
+export const collections: Collection[] = [
+  { title: "Weddings", subtitle: "Timeless love stories", cover: g03, count: 148 },
+  { title: "Portraits", subtitle: "People &amp; personalities", cover: g01, count: 96 },
+  { title: "Landscapes", subtitle: "Light &amp; land", cover: g02, count: 74 },
+  { title: "Editorial", subtitle: "Fashion &amp; brand", cover: g06, count: 61 },
+  { title: "Street", subtitle: "Life as it happens", cover: g05, count: 52 },
+  { title: "Lifestyle", subtitle: "Real, unposed moments", cover: g08, count: 88 },
+];
