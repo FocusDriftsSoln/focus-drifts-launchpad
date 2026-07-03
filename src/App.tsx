@@ -73,7 +73,7 @@ export default function App() {
           className="mt-10 flex items-center gap-6 text-foreground/60"
         >
           <a
-            href="https://instagram.com"
+            href="https://www.threads.com/@foucsdrift?xmt=AQG0hayu-UC0XyAjhPvew5Yw1P3Mne01PUV1bnovBH55Seo"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="Instagram"
@@ -82,7 +82,7 @@ export default function App() {
             <Instagram className="h-5 w-5" />
           </a>
           <a
-            href="https://youtube.com"
+            href="http://www.youtube.com/@FocusDrifts"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="YouTube"
@@ -91,7 +91,7 @@ export default function App() {
             <Youtube className="h-5 w-5" />
           </a>
           <a
-            href="mailto:hello@focusdrifts.com"
+            href="mailto:sateesh_ks@focusdrifts.com"
             aria-label="Email"
             className="transition-colors hover:text-brand-amber"
           >
