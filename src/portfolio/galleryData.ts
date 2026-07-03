@@ -1,11 +1,11 @@
-import g01 from "../assets/gallery-01.jpg";
-import g02 from "../assets/gallery-02.jpg";
-import g03 from "../assets/gallery-03.jpg";
-import g04 from "../assets/gallery-04.jpg";
-import g05 from "../assets/gallery-05.jpg";
-import g06 from "../assets/gallery-06.jpg";
-import g07 from "../assets/gallery-07.jpg";
-import g08 from "../assets/gallery-08.jpg";
+import g01 from "./assets/gallery-01.jpg";
+import g02 from "./assets/gallery-02.jpg";
+import g03 from "./assets/gallery-03.jpg";
+import g04 from "./assets/gallery-04.jpg";
+import g05 from "./assets/gallery-05.jpg";
+import g06 from "./assets/gallery-06.jpg";
+import g07 from "./assets/gallery-07.jpg";
+import g08 from "./assets/gallery-08.jpg";
 
 export type GalleryItem = {
   src: string;
