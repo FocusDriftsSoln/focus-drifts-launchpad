@@ -1,14 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { Instagram, Youtube, Mail } from "lucide-react";
 
 import logo from "@/assets/focus-drift-logo.png";
 import heroBg from "@/assets/hero-bg.jpg";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-});
-
-function Index() {
+export default function App() {
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-background px-6 py-16 text-foreground">
       {/* Cinematic backdrop */}
